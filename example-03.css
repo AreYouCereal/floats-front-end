@@ -5,29 +5,64 @@
 
 /* Example 03 */
 
-.container {
+container {
 	width: 1024px;
 	margin: 0 auto;
 }
 
-
-.header {}
+.header {
+	  border: 1px solid;
+    border-color: red;
+  background-color: red;
+  font-family: Arial;
+  padding: 10px 0 10px 10px;
+}
 
 .sidebar {
-	/* hint! */
+	float: right;
+	width: 250px;
+  height: 300px;
+    border: 1px solid;
+    border-color:yellow;
+  background-color: yellow;
+  font-family: Arial;
+    padding: 10px 0 10px 10px;
 }
 
 .main-content {
+	border: 1px solid;
+    border-color: green;
+  background-color: green;
+  font-family: Arial;
+    padding: 10px 0 10px 10px;
+  height: 300px;
 	/* hint! */
 }
 
 .footer {
+  clear: both;
+	border: 1px solid;
+    border-color: blue;
+  background-color: blue;
+  font-family: Arial;
+    padding: 10px 0 10px 10px;
 	/* hint! */
 }
-
-/*
-div {
-	margin: 20px;
+  border-color: orange;
+  color: orange;
 }
-*/
-/* uncomment me to see if you missed anything! */
+
+.main {
+  border-color: green;
+  color: green;
+}
+
+.footer {
+  border-color: blue;
+  color: blue;
+}
+
+
+
+
+
