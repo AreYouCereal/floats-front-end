@@ -13,8 +13,19 @@
 
 .main-content {}
 /* hint! what do you need to add here? */
-
+.main-content {
+	float:left;
+	width: 100%;
+  border: solid;
+  border-color: #668B8B;
+  background-color: #668B8B;
+  margin: 0 auto;
+}
 .widget {
+	display: inline-block;
+    width: 175px;
+    height: 175px;
+  padding-right: 50px;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
