@@ -37,13 +37,14 @@ border-color: #E64848;
 }
 .sidebar {
 	float:left;
-	height:300px;
+	height:320px;
 	width: 250px;
   border-color: #FFA500;
   background-color: #FFA500;
   clear: right;
-  padding: 10px 0 10px 10px;
+  margin: 10px 0px 0px 10px;
 }
+
 
 .sub-content {
 	border-color: #337D95;
