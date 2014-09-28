@@ -10,15 +10,19 @@
 	margin: 0 auto;
 }
 
+.header {
+	background-color: #F2A062;
+	font-family: Arial;
+	font-size: small;
+}
 
-.main-content {}
 /* hint! what do you need to add here? */
 .main-content {
 	float:left;
 	width: 100%;
   border: solid;
-  border-color: #668B8B;
-  background-color: #668B8B;
+  border-color: #8EABC0;
+  background-color: #8EABC0;
   margin: 0 auto;
 }
 .widget {
@@ -26,14 +30,19 @@
     width: 175px;
     height: 175px;
   padding-right: 50px;
+  background-color: #E23D80;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
 
-
 .footer {
+	width:100%;
+	background-color: #B7CE3F;
+	font-family: Arial;
+	font-size: small;
 	/* hint! */
 }
+
 
 
 /* Bonus: what happens if you make a couple of the widgets taller than the other? */
