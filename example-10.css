@@ -5,14 +5,75 @@
 
 /* Example 10 */
 
-.header {}
+.header {
+	top: 0;
+    height: 50px;
+    left: 0;
+    right: 0;
+	margin:0px auto; 
+	width:100%;
+	float: left;
+    position: absolute;
+    border-color: #E68A2E;
+  	background-color: #E68A2E;
+}
 
-.sidebar {}
 
-.main-content {}
+.sidebar {
+	float:left;
+	width: 20%;
+	height: 200px;
+	position: relative;
+  	border-color: #FFA500;
+  	background-color: #FFA500;
+  	padding-bottom: 10px;
+}
+}
+.wrap {
+		position:relative;
+		margin:0 auto;
+		width:1024px;
+	}
 
-.sub-content {}
+.main-content {
+	float:left;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:0px auto; 
+	position: relative;
+	width:80%; 
+	height: 200px; 
+  	border-color: #8EABC0;
+  	background-color: #8EABC0;
+  	padding-bottom: 10px;
+  	clear:right;
+}
 
-.footer {}
+.container {
+	clear: both;
+	position: relative;
+	overflow: auto;
+	padding-bottom: 10px;
+}
+
+.cf:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.footer {
+	clear: both;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+	margin:0px auto; 
+	width:100%;
+	position: bottom;
+  	background-color: #99CC00;
+}
+
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
