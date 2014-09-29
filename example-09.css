@@ -61,14 +61,10 @@
 
 }
 
-.cf:after {
-  content: ' ';
-  display: block;
-  clear: both;
-}
 .footer {
 	clear: both;
   	background-color: #99CC00;
+  		margin:0px auto; 
 }
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
