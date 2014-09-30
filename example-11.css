@@ -10,9 +10,13 @@
 .main-content {}
 /* hint! */
 
-.post {}
+.post {
+	float: right;
+}
 /* hint! */
 
-.image {}
+.image {
+	float: left;
+}
 
 .post_excerpt {}
